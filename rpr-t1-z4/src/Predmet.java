@@ -33,7 +33,7 @@ public class Predmet {
     public String toString() {
         StringBuilder toString = new StringBuilder();
         for(int i = 0; i < brojRegistrovanihStudenata; i++)
-            toString.append("\n" + studenti[i].toString());
+            toString.append(studenti[i].toString() + "\n");
         return toString.toString();
     }
 
